@@ -14,6 +14,18 @@ public class Book {
     public Book() {
     }
 
+    public boolean equals(Object obj){
+
+        if(obj == null || !(obj instanceof Book)) {
+            return false;
+        }
+            Book book = (Book)obj;
+
+
+        return bookID.equals(book.getBookID());
+
+    }
+
     public String getBookID() {
         return bookID;
     }
