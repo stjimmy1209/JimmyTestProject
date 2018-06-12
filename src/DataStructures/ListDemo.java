@@ -1,9 +1,6 @@
 package DataStructures;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class ListDemo {
 
@@ -87,6 +84,8 @@ public class ListDemo {
         System.out.println(list2);
         System.out.println("Sublist: (2,5): " + (list2.subList(2,5)));
 
+        Collections.shuffle(list1);
+        System.out.println(list1);
 
 
     }
