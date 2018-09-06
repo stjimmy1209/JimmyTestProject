@@ -30,7 +30,7 @@ public class KeywordCountDemo {
 
         try (
             FileReader freader = new FileReader(fileName);
-            BufferedReader reader = new BufferedReader(freader);)
+            BufferedReader reader = new BufferedReader(freader))
         {
 
             String line = null;

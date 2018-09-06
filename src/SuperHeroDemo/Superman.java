@@ -1,7 +1,7 @@
 package SuperHeroDemo;
 // super hero superman implements all of the three interfaces
 
-public class Superman implements IMarch, ICruise, IFight{
+public class Superman implements IMarch, ICruise, IFight {
 
     @Override
     public void sail() {
